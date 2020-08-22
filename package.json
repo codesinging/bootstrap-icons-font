@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-icons-font",
+  "version": "0.0.1",
+  "description": "The icon font of bootstrap-icons",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesinging/bootstrap-icons-font.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "bootstrap-icons",
+    "icons",
+    "font",
+    "iconfont"
+  ],
+  "author": "codesinging",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codesinging/bootstrap-icons-font/issues"
+  },
+  "homepage": "https://github.com/codesinging/bootstrap-icons-font#readme"
+}
