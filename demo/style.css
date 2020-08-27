@@ -1,0 +1,19 @@
+.bd-navbar{
+    background-color: #7952b3;
+}
+
+.mt-navbar{
+    margin-top: 60px;
+}
+
+.icons-item{
+    cursor: pointer;
+}
+
+.icons-item-icon{
+    font-size: 32px;
+}
+
+.icons-item-name{
+    font-size: 12px;
+}

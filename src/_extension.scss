@@ -1,0 +1,52 @@
+$bi-prefix: bi-- !default;
+
+.#{$bi-prefix}lg {
+    font-size: 1.33333333em;
+}
+
+.#{$bi-prefix}2x {
+    font-size: 2em;
+}
+
+.#{$bi-prefix}3x {
+    font-size: 3em;
+}
+
+.#{$bi-prefix}4x {
+    font-size: 4em;
+}
+
+.#{$bi-prefix}5x {
+    font-size: 5em;
+}
+
+.#{$bi-prefix}spin {
+    animation: #{$bi-prefix}spin 2s infinite linear;
+}
+
+@keyframes #{$bi-prefix}spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+$degrees: 45, 90, 135, 180, 225, 270, 315;
+
+@each $deg in $degrees {
+    .#{$bi-prefix}rotate-#{$deg} {
+        transform: rotate(#{$deg}deg)
+    }
+}
+
+.#{$bi-prefix}flip-horizontal {
+    transform: scale(-1, 1)
+}
+
+.#{$bi-prefix}flip-vertical {
+    transform: scale(1, -1)
+}
