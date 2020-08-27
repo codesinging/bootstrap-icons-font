@@ -1,7 +1,7 @@
 {
     "name": "bootstrap-icons-font",
-    "version": "0.0.1",
-    "description": "The icon font of bootstrap-icons",
+    "version": "1.0.0",
+    "description": "An icon font of Bootstrap Icons",
     "scripts": {
         "dev": "gulp dev",
         "build": "gulp build",
