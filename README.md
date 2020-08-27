@@ -1,8 +1,6 @@
 # Bootstrap Icons Font
 
-An icon font library based on Bootstrap Icons.
-
-Bootstrap Icons Official Site(https://icons.getbootstrap.com/)
+An icon font library based on [Bootstrap Icons](https://icons.getbootstrap.com/)
 
 ## Install
 
