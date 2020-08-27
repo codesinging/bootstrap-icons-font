@@ -60,6 +60,10 @@ You can rotate and flip icons use the `bi--rotate-*` and `bi--flip-*` classes.
     
     <i class="bi-bootstrap bi--flip-horizontal"></i>
     <i class="bi-bootstrap bi--flip-vertical"></i>
+    
+## Icons
+
+![Icons](https://user-images.githubusercontent.com/98681/85891337-be640680-b7a3-11ea-84a0-0a103fce118c.png)
 
 ## License
 
