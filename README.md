@@ -4,7 +4,7 @@ An icon font library including 1000+ icons, based on [Bootstrap Icons](https://i
 
 ## Install
 
-Bootstrap Icons Font is packaged up and published to npm. You can install it via command line.
+Bootstrap Icons Font is published to npm. You can install it via command line.
 
 ### Install with npm:
 
