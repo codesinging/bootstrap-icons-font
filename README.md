@@ -24,12 +24,8 @@ The Bootstrap Icons Font is designed to be used with inline elements, `i` and `s
     <span class="bi-gear-fill"></span>
 
 ### Icon Sizes
-
-You can set the font sizes with `font-size` like common elements
-
-    <i class="bi-gear" style="font-size: 32px;"></i>
     
-You can also use the utilities:
+You can set the font sizes use the utilities:
 
 - `.bi--lg` : font size is 1.33333333em
 - `.bi--2x` : font size is 2em
