@@ -45,15 +45,26 @@
 
     <div class="container mt-navbar pt-3">
 
-        <div class="jumbotron jumbotron-fluid text-center">
+        <div class="jumbotron jumbotron-fluid text-center banner-bg">
             <div class="container">
                 <h1 class="display-4">Bootstrap Icons Font</h1>
                 <p class="lead">
                     An icon font library based on Bootstrap icons.
                 </p>
-                <div>
-                    <a href="https://github.com/codesinging/bootstrap-icons-font" class="btn btn-outline-success" target="_blank">Bootstrap Icons Font</a>
-                    <a href="https://github.com/twbs/icons" class="btn btn-outline-info" target="_blank">Bootstrap Icons Official Site</a>
+                <p>
+                    Boostrap Icons currently
+                    <span class="badge badge-info">v1.0.0-alpha5</span>,
+                    and <span class="badge badge-info">{{ icons.length }}</span> icons.
+                </p>
+                <div class="mt-5">
+                    <a href="https://github.com/codesinging/bootstrap-icons-font/releases" class="btn btn-outline-success" target="_blank">
+                        <i class="bi-download"></i>
+                        Download Bootstrap Icons Font
+                    </a>
+                    <a href="https://icons.getbootstrap.com/" class="btn btn-outline-primary" target="_blank">
+                        <i class="bi-link-45deg"></i>
+                        Bootstrap Icons Official Site
+                    </a>
                 </div>
             </div>
         </div>
@@ -112,14 +123,14 @@
                 <div>
                     <code>.bi--lg</code> : font size is 1.33333333em
                 </div>
-                <div v-for="i in [2,3,4,5]" :key="i">
+                <div v-for="i in [2,3,4,5]" :key="'icon'+i">
                     <code>.bi--{{ i }}x</code> : font size is {{ i }}em
                 </div>
                 <div class="d-flex align-items-center py-2 mt-2 px-3 bg-light">
                     <i class="bi-gear-fill bi--lg"></i>
                     <code class="d-inline-block ml-3">&lt;i class="bi-gear-fill bi--lg"&gt;&lt;/i&gt;</code>
                 </div>
-                <div v-for="i in [2,3,4,5]" :key="i" class="d-flex align-items-center py-2 mt-2 px-3 bg-light">
+                <div v-for="i in [2,3,4,5]" :key="'code'+i" class="d-flex align-items-center py-2 mt-2 px-3 bg-light">
                     <i class="bi-gear-fill" :class="['bi--'+i+'x']"></i>
                     <code class="d-inline-block ml-3">&lt;i class="bi-gear-fill bi--{{ i }}x"&gt;&lt;/i&gt;</code>
                 </div>
