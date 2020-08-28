@@ -4143,6 +4143,10 @@
   content: "\ed05";
 }
 
+[class^="bi-"], [class*=" bi-"] {
+  display: inline-block;
+}
+
 .bi--lg {
   font-size: 1.33333333em;
 }

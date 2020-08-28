@@ -1,5 +1,9 @@
 $bi-prefix: bi-- !default;
 
+[class^="bi-"], [class*=" bi-"]{
+    display: inline-block;
+}
+
 .#{$bi-prefix}lg {
     font-size: 1.33333333em;
 }
