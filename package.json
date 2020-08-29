@@ -1,42 +1,80 @@
 {
-  "name": "bootstrap-icons-font",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
-  },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
+    "name": "bootstrap-icons-font",
+    "version": "1.1.0",
+    "srcVersion": "1.0.0",
+    "libName": "Bootstrap Icons Font",
+    "description": "An icon font library based on Bootstrap Icons",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/codesinging/bootstrap-icons-font.git"
     },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
+    "keywords": [
+        "bootstrap",
+        "bootstrap-icons",
+        "bootstrap icons",
+        "icons",
+        "font",
+        "iconfont"
     ],
-    "parserOptions": {
-      "parser": "babel-eslint"
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "site": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "parse": "gulp parse",
+        "css": "gulp css",
+        "dev": "gulp dev",
+        "build": "gulp build"
     },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "author": "codesinging",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/codesinging/bootstrap-icons-font/issues"
+    },
+    "homepage": "https://github.com/codesinging/bootstrap-icons-font#readme",
+    "dependencies": {
+        "bootstrap": "^4.5.2",
+        "core-js": "^3.6.5",
+        "vue": "^2.6.11",
+        "vue-router": "^3.2.0"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-eslint": "~4.5.0",
+        "@vue/cli-plugin-router": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "babel-eslint": "^10.1.0",
+        "del": "^5.1.0",
+        "eslint": "^6.7.2",
+        "eslint-plugin-vue": "^6.2.2",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-rename": "^2.0.0",
+        "gulp-replace": "^1.0.0",
+        "gulp-sass": "^4.1.0",
+        "gulp-sourcemaps": "^2.6.5",
+        "node-sass": "^4.14.1",
+        "sass-loader": "^10.0.1",
+        "vue-template-compiler": "^2.6.11"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "eslint:recommended"
+        ],
+        "parserOptions": {
+            "parser": "babel-eslint"
+        },
+        "rules": {}
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ]
 }
