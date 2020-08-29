@@ -45,7 +45,7 @@
         </nav>
 
         <div class="container mt-3 pt-3">
-            <div class="jumbotron jumbotron-fluid text-center banner-bg">
+            <div class="jumbotron text-center banner-bg">
                 <div class="container">
                     <h1 class="display-4">Bootstrap Icons Font</h1>
                     <p class="lead">{{ description }}</p>
