@@ -2,7 +2,7 @@
     <div>
         <nav class="navbar navbar-expand-lg navbar-dark bd-navbar">
             <div class="container">
-                <a class="navbar-brand h1 mb-0 d-inline-flex align-items-center" href="#">
+                <a class="navbar-brand h1 mb-0 d-inline-flex align-items-center" :href="homepage">
                     <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 0 118 94" role="img">
                         <title>{{ libName }}</title>
                         <path
@@ -62,7 +62,7 @@
         </div>
 
         <a name="install"></a>
-        <div class="container mt-5">
+        <div class="container mt-4">
             <h3 class="border-bottom pb-3">Install</h3>
 
             <div class="pt-3">
@@ -83,7 +83,7 @@
         </div>
 
         <a name="usage"></a>
-        <div class="container mt-5">
+        <div class="container mt-4">
             <h3 class="border-bottom pb-3">Usage</h3>
 
             <div class="mt-3">
@@ -167,7 +167,7 @@
         </div>
 
         <a name="icons"></a>
-        <div class="container mt-5">
+        <div class="container mt-4">
             <div class="d-flex justify-content-between border-bottom">
                 <h3>Icons</h3>
                 <div>
@@ -232,6 +232,9 @@ export default {
             return this.icons
         },
     },
+    created() {
+        document.title = this.libName
+    }
 }
 </script>
 
@@ -250,7 +253,7 @@ export default {
 .icons-item-icon{
     font-size: 32px;
     &:hover{
-        color: green;
+        color: #7952b3;
     }
 }
 </style>
