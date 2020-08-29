@@ -1,6 +1,6 @@
 {
     "name": "bootstrap-icons-font",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "srcVersion": "1.0.0",
     "libName": "Bootstrap Icons Font",
     "description": "An icon font library based on Bootstrap Icons",
@@ -26,11 +26,14 @@
         "build": "gulp build"
     },
     "author": "codesinging",
+    "authGithub": "https://github.com/codesinging",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/codesinging/bootstrap-icons-font/issues"
     },
-    "homepage": "https://github.com/codesinging/bootstrap-icons-font#readme",
+    "homepage": "https://codesinging.github.io/bootstrap-icons-font",
+    "repo": "https://github.com/codesinging/bootstrap-icons-font",
+    "download": "https://github.com/codesinging/bootstrap-icons-font/releases",
     "dependencies": {
         "bootstrap": "^4.5.2",
         "core-js": "^3.6.5",

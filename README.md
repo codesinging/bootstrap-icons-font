@@ -25,18 +25,25 @@ The Bootstrap Icons Font is designed to be used with inline elements, `i` and `s
 
 ### Icon Sizes
     
-You can set the font sizes use the utilities:
+We provide some useful utilities to set font sizes:
 
-- `.bi--lg` : font size is 1.33333333em
-- `.bi--2x` : font size is 2em
-- `.bi--3x` : font size is 3em
-- `.bi--4x` : font size is 4em
-- `.bi--5x` : font size is 5em
+- `.bi--xs` : font size is 0.5em
+- `.bi--sm` : font size is 0.75em
+- `.bi--md` : font size is 1em
+- `.bi--lg` : font size is 1.25em
+- `.bi--xl` : font size is 1.5em
+- `.bi--2xl` : font size is 2em
+- `.bi--3xl` : font size is 2.5em
+- `.bi--4xl` : font size is 3em
+- `.bi--5xl` : font size is 3.5em
+- `.bi--6xl` : font size is 4em
+- `.bi--7xl` : font size is 4.5em
+- `.bi--8xl` : font size is 5em
 
 Examples:
 
     <i class="bi-gear-fill bi--lg"></i>
-    <i class="bi-gear-fill bi--2x"></i>
+    <i class="bi-gear-fill bi--2xl"></i>
 
 ### Animated Icons
 
@@ -44,9 +51,9 @@ You can use the `bi--spin` class to get any icon to rotate.
 
     <i class="bi-gear bi--spin"></i>
     
-### Rotated & Flipped
+### Rotated Icons
 
-You can rotate and flip icons use the `bi--rotate-*` and `bi--flip-*` classes.
+You can use the bi--rotate-* class to rotate icons.
 
     <i class="bi-bootstrap bi--rotate-45"></i>
     <i class="bi-bootstrap bi--rotate-90"></i>
@@ -56,6 +63,10 @@ You can rotate and flip icons use the `bi--rotate-*` and `bi--flip-*` classes.
     <i class="bi-bootstrap bi--rotate-270"></i>
     <i class="bi-bootstrap bi--rotate-315"></i>
     
+### Flipped Icons
+
+You can use the bi--flip-* class to flip icons.
+
     <i class="bi-bootstrap bi--flip-horizontal"></i>
     <i class="bi-bootstrap bi--flip-vertical"></i>
     
