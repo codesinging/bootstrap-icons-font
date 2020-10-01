@@ -80,10 +80,6 @@
                 <p class="code-previewer">
                     yarn add bootstrap-icons-font
                 </p>
-                <p class="h6">You can also download the compiled css and font files:</p>
-                <p>
-                    <a class="btn btn-info" target="_blank" :href="download">Download</a>
-                </p>
             </div>
         </div>
 

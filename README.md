@@ -77,3 +77,7 @@ You can use the bi--flip-* class to flip icons.
 ## License
 
 MIT
+
+## Thanks
+
+Thank Bootstrap team to provide us the great icons.
