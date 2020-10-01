@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'bootstrap-icons-font';
   src:
-    url('fonts/bootstrap-icons-font.ttf?da8lby') format('truetype'),
-    url('fonts/bootstrap-icons-font.woff?da8lby') format('woff'),
-    url('fonts/bootstrap-icons-font.svg?da8lby#bootstrap-icons-font') format('svg');
+    url('fonts/bootstrap-icons-font.ttf?hnq3y0') format('truetype'),
+    url('fonts/bootstrap-icons-font.woff?hnq3y0') format('woff'),
+    url('fonts/bootstrap-icons-font.svg?hnq3y0#bootstrap-icons-font') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -497,9 +497,6 @@
 }
 .bi-bootstrap-fill:before {
   content: "\e99d";
-}
-.bi-bootstrap-icons:before {
-  content: "\e99e";
 }
 .bi-bootstrap-reboot:before {
   content: "\e99f";

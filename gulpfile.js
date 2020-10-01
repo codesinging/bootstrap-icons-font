@@ -34,6 +34,11 @@ const font = () => {
         .pipe(dest('dist/fonts'))
 }
 
+const data = () => {
+    return src('src/icons.js')
+        .pipe(dest('dist'))
+}
+
 const cleanCss = () => {
     return del(['dist/*.css', 'dist/*.css.map'])
 }
@@ -66,4 +71,4 @@ const parse = (cb) => {
 exports.css = css
 exports.parse = parse
 exports.dev = dev
-exports.build = parallel(series(cleanCss, css), series(cleanFonts, font))
+exports.build = parallel(series(cleanCss, css), series(cleanFonts, font), data)
