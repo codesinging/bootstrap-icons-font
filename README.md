@@ -80,4 +80,4 @@ MIT
 
 ## Thanks
 
-Thank Bootstrap team to provide us the great icons.
+Thank Bootstrap team for providing us the great icons.
